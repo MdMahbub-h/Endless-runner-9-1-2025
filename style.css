@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a0030;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 95%;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  /* background: #5e00a1; */
+  /* border: 5px solid rgb(157, 58, 255); */
+  /* border-radius: 20px; */
+}
