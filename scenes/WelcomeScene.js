@@ -6,16 +6,16 @@ class WelcomeScene extends Phaser.Scene {
     super("WelcomeScene");
   }
   preload() {
-    this.load.image("welcomebg", "/public/assets/startbg.jpeg");
-    this.load.image("welcomebgcholitos", "/public/assets/welcomecholitos.png");
-    this.load.image("progress", "/public/assets/progress.png");
-    this.load.image("progress2", "/public/assets/progress2.png");
-    this.load.image("playbtn", "/public/assets/playBtn.png");
-    this.load.image("soundOn", "/public/assets/soundOn.png");
-    this.load.image("soundOff", "/public/assets/soundOff.png");
-    this.load.image("detailsBox", "/public/assets/descriptionBox.png");
-    this.load.audio("startSound", "/public/assets/startSound.mp3");
-    this.load.image("endbg", "/public/assets/endbg.jpeg");
+    this.load.image("welcomebg", "assets/startbg.jpeg");
+    this.load.image("welcomebgcholitos", "assets/welcomecholitos.png");
+    this.load.image("progress", "assets/progress.png");
+    this.load.image("progress2", "assets/progress2.png");
+    this.load.image("playbtn", "assets/playBtn.png");
+    this.load.image("soundOn", "assets/soundOn.png");
+    this.load.image("soundOff", "assets/soundOff.png");
+    this.load.image("detailsBox", "assets/descriptionBox.png");
+    this.load.audio("startSound", "assets/startSound.mp3");
+    this.load.image("endbg", "assets/endbg.jpeg");
 
     this.load.image("sky", "assets/endless_runner/parallax2/layer_04.png");
     this.load.image("clouds", "assets/endless_runner/parallax2/layer_05.png");
